@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* bace-------------------------------------------------- */
+body {
+    color: #888888;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.71;
+    letter-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* layout-レイアウト
+---------------------------------------------------------------------- */
+
+.l-inner {
+    width: 66.66%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-m-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-mb1 {
+    margin-bottom: 10px;
+}
+
+.l-mb1-5 {
+    margin-bottom: 15px;
+}
+
+.l-mb2-5 {
+    margin-bottom: 25px;
+}
+
+.l-mb3 {
+    margin-bottom: 30px;
+}
+
+.l-mb6 {
+    margin-bottom: 60px;
+}
+
+.l-py6 {
+    padding: 60px 0;
+}
+
+.l-p3-5 {
+    padding: 35px;
+}
+
+.l-border {
+    padding-bottom: 10px;
+    border-bottom: #DDDDDD 1px solid;
+}
+
+/* flexbox */
+.l-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*col*/
+.l-co2 {
+    width: 47.5%;
+}
+
+.l-co3 {
+    width: 30%;
+}
+
+/*color*/
+.l-pink {
+    color: #FA6980;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.l-rightGray {
+    color: #BBBBBB;
+    font-size: 12px;
+}
+
+.l-brack {
+    color: #202124;
+    font-size: 18px;
+}
+
+.l-bg-pink {
+    background-color: #FA6980;
+}
+
+.l-bg-rightGray {
+    background-color: #F6F6F6;
+}
+
+.l-bg-white {
+    background-color: #FFFFFF;
+}
+
+.l-bg-brack {
+    background-color: #202124;
+}
+
+/*text*/
+.l-text-center {
+    display: block;
+    text-align: center;
+}
+
+.l-text-right {
+    display: block;
+    text-align: right;
+}
+
+/* header */
+/* footer */
+.l-footer {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #BBBBBB;
+    background-color: #202124;
+}
+
+/* module-モジュール
+---------------------------------------------------------------------- */
+/* unit */
+.unit-title {
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.29;
+}
+
+.unit-item::before {
+    content: "";
+    width: 10px;
+    height: 20px;
+    background-color: #FA6980;
+    position: absolute;
+}
+
+
+/*btn*/
+.btn {
+    padding: 14px 43px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* card */
+.card-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.27;
+}
+
+.time {
+    background: url(./images/icon_time.png) no-repeat;
+    padding-left: 26px;
+    align-items: center;
+}
